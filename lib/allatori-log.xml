@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v8.8 DEMO
+   Web: http://www.allatori.com
+
+   Log created: Wed Dec 27 09:27:08 CST 2023
+-->
+
+<!--
+0 classes renamed
+9 methods renamed
+8 fields renamed
+
+43 local variables optimized:
+   0 merged and removed
+   18 removed (unused)
+   10 removed (assigned a value but never used)
+   15 usage optimized
+-->
+
+<allatori>
+ <mapping>
+  <class old="com.yhgs.util.BitConverters" new="com.yhgs.util.BitConverters">
+   <method old="BytesToGBKString([B)Ljava/lang/String;" new="BytesToGBKString" s="262" e="275"/>
+   <method old="BytesToGBKString([BII)Ljava/lang/String;" new="BytesToGBKString" s="296" e="307"/>
+   <method old="BytesToString([B)Ljava/lang/String;" new="BytesToString" s="244" e="257"/>
+   <method old="BytesToString([BII)Ljava/lang/String;" new="BytesToString" s="281" e="292"/>
+   <method old="DateToString(Ljava/util/Date;)Ljava/lang/String;" new="DateToString" s="236" e="239"/>
+   <method old="GetBytes(D)[B" new="GetBytes" s="168" e="170"/>
+   <method old="GetBytes(F)[B" new="GetBytes" s="153" e="155"/>
+   <method old="GetBytes(I)[B" new="GetBytes" s="111" e="114"/>
+   <method old="GetBytes(J)[B" new="GetBytes" s="131" e="133"/>
+   <method old="GetBytes(S)[B" new="GetBytes" s="177" e="179"/>
+   <method old="IsBig_Endian()Z" new="m_ALLATORIxDEMO" s="313" e="316"/>
+   <method old="SYSTEMTIMEToString([BI)Ljava/lang/String;" new="SYSTEMTIMEToString" s="184" e="208"/>
+   <method old="StringNoHourToDate(Ljava/lang/String;)Ljava/util/Date;" new="StringNoHourToDate" s="224" e="232"/>
+   <method old="StringToDate(Ljava/lang/String;)Ljava/util/Date;" new="StringToDate" s="212" e="220"/>
+   <method old="ToDouble([BJ)D" new="ToDouble" s="85" e="86"/>
+   <method old="ToInt16([BI)S" new="ToInt16" s="23" e="24"/>
+   <method old="ToInt32([BI)I" new="ToInt32" s="40" e="41"/>
+   <method old="ToSingle([BI)F" new="ToSingle" s="69" e="70"/>
+   <method old="ToUInt16([BI)I" new="ToUInt16" s="32" e="35"/>
+   <method old="ToUInt32([BI)J" new="ToUInt32" s="51" e="56"/>
+   <method old="ToUInt64([BI)J" new="ToUInt64" s="60" e="64"/>
+  </class>
+  <class old="com.yhgs.model.SbeDoc$NodeData" new="com.yhgs.model.SbeDoc$NodeData">
+   <method old="AmpdBToAmpPre()V" new="AmpdBToAmpPre" s="260" e="285"/>
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="168" e="168"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="168" e="168"/>
+   <method old="getA()F" new="getA" s="208" e="208"/>
+   <method old="getAcc()B" new="getAcc" s="202" e="202"/>
+   <method old="getAmp()F" new="getAmp" s="196" e="196"/>
+   <method old="getDelay()F" new="getDelay" s="184" e="184"/>
+   <method old="getDepth()I" new="getDepth" s="214" e="214"/>
+   <method old="getEmitVol()S" new="getEmitVol" s="190" e="190"/>
+   <method old="getEmitWidth()B" new="getEmitWidth" s="192" e="192"/>
+   <method old="getFirstPeakPos()F" new="getFirstPeakPos" s="218" e="218"/>
+   <method old="getFrequency()F" new="getFrequency" s="210" e="210"/>
+   <method old="getGain()F" new="getGain" s="194" e="194"/>
+   <method old="getHighPass()I" new="getHighPass" s="200" e="200"/>
+   <method old="getLowPass()I" new="getLowPass" s="198" e="198"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="178" e="178"/>
+   <method old="getNodeId()Ljava/lang/String;" new="getNodeId" s="170" e="170"/>
+   <method old="getOffset()B" new="getOffset" s="204" e="204"/>
+   <method old="getPsd()F" new="getPsd" s="176" e="176"/>
+   <method old="getRecevHeight()F" new="getRecevHeight" s="174" e="174"/>
+   <method old="getSampleLength()B" new="getSampleLength" s="249" e="255"/>
+   <method old="getSampleRate()F" new="getSampleRate" s="180" e="180"/>
+   <method old="getSampleTime()Ljava/lang/String;" new="getSampleTime" s="172" e="172"/>
+   <method old="getTime()F" new="getTime" s="206" e="206"/>
+   <method old="getTriLevel()B" new="getTriLevel" s="188" e="188"/>
+   <method old="getTrigMode()B" new="getTrigMode" s="186" e="186"/>
+   <method old="getTrl()I" new="getTrl" s="212" e="212"/>
+   <method old="getWave()[S" new="getWave" s="216" e="216"/>
+   <method old="hashCode()I" new="hashCode" s="168" e="168"/>
+   <method old="setA(F)V" new="setA" s="168" e="168"/>
+   <method old="setAcc(B)V" new="setAcc" s="168" e="168"/>
+   <method old="setAmp(F)V" new="setAmp" s="168" e="168"/>
+   <method old="setDelay(F)V" new="setDelay" s="168" e="168"/>
+   <method old="setDepth(I)V" new="setDepth" s="168" e="168"/>
+   <method old="setEmitVol(S)V" new="setEmitVol" s="168" e="168"/>
+   <method old="setEmitWidth(B)V" new="setEmitWidth" s="168" e="168"/>
+   <method old="setFirstPeakPos(F)V" new="setFirstPeakPos" s="168" e="168"/>
+   <method old="setFrequency(F)V" new="setFrequency" s="168" e="168"/>
+   <method old="setGain(F)V" new="setGain" s="168" e="168"/>
+   <method old="setHighPass(I)V" new="setHighPass" s="168" e="168"/>
+   <method old="setLowPass(I)V" new="setLowPass" s="168" e="168"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="168" e="168"/>
+   <method old="setNodeId(Ljava/lang/String;)V" new="setNodeId" s="168" e="168"/>
+   <method old="setOffset(B)V" new="setOffset" s="168" e="168"/>
+   <method old="setPsd(F)V" new="setPsd" s="168" e="168"/>
+   <method old="setRecevHeight(F)V" new="setRecevHeight" s="168" e="168"/>
+   <method old="setSampleLength(S)V" new="setSampleLength" s="168" e="168"/>
+   <method old="setSampleRate(F)V" new="setSampleRate" s="168" e="168"/>
+   <method old="setSampleTime(Ljava/lang/String;)V" new="setSampleTime" s="168" e="168"/>
+   <method old="setTime(F)V" new="setTime" s="168" e="168"/>
+   <method old="setTriLevel(B)V" new="setTriLevel" s="168" e="168"/>
+   <method old="setTrigMode(B)V" new="setTrigMode" s="168" e="168"/>
+   <method old="setTrl(I)V" new="setTrl" s="168" e="168"/>
+   <method old="setWave([S)V" new="setWave" s="168" e="168"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="168" e="168"/>
+   <field old="A F" new="A"/>
+   <field old="Acc B" new="Acc"/>
+   <field old="Amp F" new="Amp"/>
+   <field old="Delay F" new="Delay"/>
+   <field old="Depth I" new="Depth"/>
+   <field old="EmitVol S" new="EmitVol"/>
+   <field old="EmitWidth B" new="EmitWidth"/>
+   <field old="FirstPeakPos F" new="FirstPeakPos"/>
+   <field old="Frequency F" new="Frequency"/>
+   <field old="Gain F" new="Gain"/>
+   <field old="HighPass I" new="HighPass"/>
+   <field old="LowPass I" new="LowPass"/>
+   <field old="Name Ljava/lang/String;" new="Name"/>
+   <field old="NodeId Ljava/lang/String;" new="NodeId"/>
+   <field old="Offset B" new="Offset"/>
+   <field old="Psd F" new="Psd"/>
+   <field old="RecevHeight F" new="RecevHeight"/>
+   <field old="SampleLength S" new="SampleLength"/>
+   <field old="SampleRate F" new="SampleRate"/>
+   <field old="SampleTime Ljava/lang/String;" new="SampleTime"/>
+   <field old="Time F" new="Time"/>
+   <field old="TriLevel B" new="TriLevel"/>
+   <field old="TrigMode B" new="TrigMode"/>
+   <field old="Trl I" new="Trl"/>
+   <field old="Wave [S" new="Wave"/>
+   <field old="this$0 Lcom/yhgs/model/SbeDoc;" new="f_ALLATORIxDEMO"/>
+  </class>
+  <class old="com.yhgs.model.SssDoc$ChannelData" new="com.yhgs.model.SssDoc$ChannelData">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="77" e="77"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="77" e="77"/>
+   <method old="getBaseInfoId()Ljava/lang/String;" new="getBaseInfoId" s="80" e="80"/>
+   <method old="getChannelData()[S" new="getChannelData" s="96" e="96"/>
+   <method old="getDataVersion()S" new="getDataVersion" s="98" e="98"/>
+   <method old="getFilterFrequency()S" new="getFilterFrequency" s="94" e="94"/>
+   <method old="getSampleGain()S" new="getSampleGain" s="86" e="86"/>
+   <method old="getSampleInterval()F" new="getSampleInterval" s="84" e="84"/>
+   <method old="getSampleLength()S" new="getSampleLength" s="88" e="88"/>
+   <method old="getSampleTime()Ljava/util/Date;" new="getSampleTime" s="92" e="92"/>
+   <method old="getSensorSensitive()F" new="getSensorSensitive" s="90" e="90"/>
+   <method old="getSignalType()B" new="getSignalType" s="82" e="82"/>
+   <method old="hashCode()I" new="hashCode" s="77" e="77"/>
+   <method old="setBaseInfoId(Ljava/lang/String;)V" new="setBaseInfoId" s="77" e="77"/>
+   <method old="setChannelData([S)V" new="setChannelData" s="77" e="77"/>
+   <method old="setDataVersion(S)V" new="setDataVersion" s="77" e="77"/>
+   <method old="setFilterFrequency(S)V" new="setFilterFrequency" s="77" e="77"/>
+   <method old="setSampleGain(S)V" new="setSampleGain" s="77" e="77"/>
+   <method old="setSampleInterval(F)V" new="setSampleInterval" s="77" e="77"/>
+   <method old="setSampleLength(S)V" new="setSampleLength" s="77" e="77"/>
+   <method old="setSampleTime(Ljava/util/Date;)V" new="setSampleTime" s="77" e="77"/>
+   <method old="setSensorSensitive(F)V" new="setSensorSensitive" s="77" e="77"/>
+   <method old="setSignalType(B)V" new="setSignalType" s="77" e="77"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="77" e="77"/>
+   <field old="BaseInfoId Ljava/lang/String;" new="BaseInfoId"/>
+   <field old="ChannelData [S" new="ChannelData"/>
+   <field old="DataVersion S" new="DataVersion"/>
+   <field old="FilterFrequency S" new="FilterFrequency"/>
+   <field old="SampleGain S" new="SampleGain"/>
+   <field old="SampleInterval F" new="SampleInterval"/>
+   <field old="SampleLength S" new="SampleLength"/>
+   <field old="SampleTime Ljava/util/Date;" new="SampleTime"/>
+   <field old="SensorSensitive F" new="SensorSensitive"/>
+   <field old="SignalType B" new="SignalType"/>
+  </class>
+  <class old="com.yhgs.model.SbeDoc" new="com.yhgs.model.SbeDoc">
+   <method old="ToEditionSixBytes()[B" new="ToEditionSixBytes" s="295" e="366"/>
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="17" e="17"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="17" e="17"/>
+   <method old="getAffuseDate()Ljava/lang/String;" new="getAffuseDate" s="38" e="38"/>
+   <method old="getAngle()I" new="getAngle" s="58" e="58"/>
+   <method old="getBaseInfoId()Ljava/lang/String;" new="getBaseInfoId" s="24" e="24"/>
+   <method old="getByteArrayByShortArray([S)[B" new="m_ALLATORIxDEMO" s="371" e="395"/>
+   <method old="getConcreteStrength()Ljava/lang/String;" new="getConcreteStrength" s="40" e="40"/>
+   <method old="getDcable()F" new="getDcable" s="72" e="72"/>
+   <method old="getDwheel()F" new="getDwheel" s="70" e="70"/>
+   <method old="getEdition()B" new="getEdition" s="22" e="22"/>
+   <method old="getGpsIsValid()B" new="getGpsIsValid" s="36" e="36"/>
+   <method old="getGpsLatitude()D" new="getGpsLatitude" s="44" e="44"/>
+   <method old="getGpsLongitude()D" new="getGpsLongitude" s="42" e="42"/>
+   <method old="getMachineId()Ljava/lang/String;" new="getMachineId" s="30" e="30"/>
+   <method old="getMinDepth()F" new="getMinDepth" s="54" e="54"/>
+   <method old="getNAME_SIGN_ST01E()Ljava/lang/String;" new="getNAME_SIGN_ST01E" s="289" e="289"/>
+   <method old="getName()Ljava/lang/String;" new="getName" s="20" e="20"/>
+   <method old="getPileDiameterHeight()I" new="getPileDiameterHeight" s="46" e="46"/>
+   <method old="getPileDiameterWidth()I" new="getPileDiameterWidth" s="48" e="48"/>
+   <method old="getPileLength()F" new="getPileLength" s="50" e="50"/>
+   <method old="getPileNo()Ljava/lang/String;" new="getPileNo" s="32" e="32"/>
+   <method old="getPileType()B" new="getPileType" s="60" e="60"/>
+   <method old="getSectionCount()I" new="getSectionCount" s="66" e="66"/>
+   <method old="getSectionDatas()[Lcom/yhgs/model/SbeDoc$SectionData;" new="getSectionDatas" s="74" e="74"/>
+   <method old="getSensorType()B" new="getSensorType" s="68" e="68"/>
+   <method old="getSerialNo()Ljava/lang/String;" new="getSerialNo" s="26" e="26"/>
+   <method old="getShangGangZheng()Ljava/lang/String;" new="getShangGangZheng" s="28" e="28"/>
+   <method old="getStartDepth()F" new="getStartDepth" s="52" e="52"/>
+   <method old="getStep()F" new="getStep" s="62" e="62"/>
+   <method old="getSysZeroTime()F" new="getSysZeroTime" s="64" e="64"/>
+   <method old="getTestTime()Ljava/lang/String;" new="getTestTime" s="34" e="34"/>
+   <method old="getTubeCount()B" new="getTubeCount" s="56" e="56"/>
+   <method old="hashCode()I" new="hashCode" s="17" e="17"/>
+   <method old="setAffuseDate(Ljava/lang/String;)V" new="setAffuseDate" s="17" e="17"/>
+   <method old="setAngle(I)V" new="setAngle" s="17" e="17"/>
+   <method old="setBaseInfoId(Ljava/lang/String;)V" new="setBaseInfoId" s="17" e="17"/>
+   <method old="setConcreteStrength(Ljava/lang/String;)V" new="setConcreteStrength" s="17" e="17"/>
+   <method old="setDcable(F)V" new="setDcable" s="17" e="17"/>
+   <method old="setDwheel(F)V" new="setDwheel" s="17" e="17"/>
+   <method old="setEdition(B)V" new="setEdition" s="17" e="17"/>
+   <method old="setGpsIsValid(B)V" new="setGpsIsValid" s="17" e="17"/>
+   <method old="setGpsLatitude(D)V" new="setGpsLatitude" s="17" e="17"/>
+   <method old="setGpsLongitude(D)V" new="setGpsLongitude" s="17" e="17"/>
+   <method old="setMachineId(Ljava/lang/String;)V" new="setMachineId" s="17" e="17"/>
+   <method old="setMinDepth(F)V" new="setMinDepth" s="17" e="17"/>
+   <method old="setName(Ljava/lang/String;)V" new="setName" s="17" e="17"/>
+   <method old="setPileDiameterHeight(I)V" new="setPileDiameterHeight" s="17" e="17"/>
+   <method old="setPileDiameterWidth(I)V" new="setPileDiameterWidth" s="17" e="17"/>
+   <method old="setPileLength(F)V" new="setPileLength" s="17" e="17"/>
+   <method old="setPileNo(Ljava/lang/String;)V" new="setPileNo" s="17" e="17"/>
+   <method old="setPileType(B)V" new="setPileType" s="17" e="17"/>
+   <method old="setSectionCount(I)V" new="setSectionCount" s="17" e="17"/>
+   <method old="setSectionDatas([Lcom/yhgs/model/SbeDoc$SectionData;)V" new="setSectionDatas" s="17" e="17"/>
+   <method old="setSensorType(B)V" new="setSensorType" s="17" e="17"/>
+   <method old="setSerialNo(Ljava/lang/String;)V" new="setSerialNo" s="17" e="17"/>
+   <method old="setShangGangZheng(Ljava/lang/String;)V" new="setShangGangZheng" s="17" e="17"/>
+   <method old="setStartDepth(F)V" new="setStartDepth" s="17" e="17"/>
+   <method old="setStep(F)V" new="setStep" s="17" e="17"/>
+   <method old="setSysZeroTime(F)V" new="setSysZeroTime" s="17" e="17"/>
+   <method old="setTestTime(Ljava/lang/String;)V" new="setTestTime" s="17" e="17"/>
+   <method old="setTubeCount(B)V" new="setTubeCount" s="17" e="17"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="17" e="17"/>
+   <field old="AffuseDate Ljava/lang/String;" new="AffuseDate"/>
+   <field old="Angle I" new="Angle"/>
+   <field old="BaseInfoId Ljava/lang/String;" new="BaseInfoId"/>
+   <field old="ConcreteStrength Ljava/lang/String;" new="ConcreteStrength"/>
+   <field old="Dcable F" new="Dcable"/>
+   <field old="Dwheel F" new="Dwheel"/>
+   <field old="EDITION_SIX B" new="EDITION_SIX"/>
+   <field old="Edition B" new="Edition"/>
+   <field old="GpsIsValid B" new="GpsIsValid"/>
+   <field old="GpsLatitude D" new="GpsLatitude"/>
+   <field old="GpsLongitude D" new="GpsLongitude"/>
+   <field old="MachineId Ljava/lang/String;" new="MachineId"/>
+   <field old="MinDepth F" new="MinDepth"/>
+   <field old="NAME_SIGN_ST01E Ljava/lang/String;" new="f_ALLATORIxDEMO"/>
+   <field old="Name Ljava/lang/String;" new="Name"/>
+   <field old="PileDiameterHeight I" new="PileDiameterHeight"/>
+   <field old="PileDiameterWidth I" new="PileDiameterWidth"/>
+   <field old="PileLength F" new="PileLength"/>
+   <field old="PileNo Ljava/lang/String;" new="PileNo"/>
+   <field old="PileType B" new="PileType"/>
+   <field old="SectionCount I" new="SectionCount"/>
+   <field old="SectionDatas [Lcom/yhgs/model/SbeDoc$SectionData;" new="SectionDatas"/>
+   <field old="SensorType B" new="SensorType"/>
+   <field old="SerialNo Ljava/lang/String;" new="SerialNo"/>
+   <field old="ShangGangZheng Ljava/lang/String;" new="ShangGangZheng"/>
+   <field old="StartDepth F" new="StartDepth"/>
+   <field old="Step F" new="Step"/>
+   <field old="SysZeroTime F" new="SysZeroTime"/>
+   <field old="TestTime Ljava/lang/String;" new="TestTime"/>
+   <field old="TubeCount B" new="TubeCount"/>
+  </class>
+  <class old="com.yhgs.model.SbeDoc$SectionData" new="com.yhgs.model.SbeDoc$SectionData">
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="111" e="111"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="111" e="111"/>
+   <method old="getBaseInfoId()Ljava/lang/String;" new="getBaseInfoId" s="114" e="114"/>
+   <method old="getMoveDirect()B" new="getMoveDirect" s="132" e="132"/>
+   <method old="getNodesCount()I" new="getNodesCount" s="134" e="134"/>
+   <method old="getSampleInterval()F" new="getSampleInterval" s="126" e="126"/>
+   <method old="getSampleLength()B" new="getSampleLength" s="157" e="163"/>
+   <method old="getSectionData()[Lcom/yhgs/model/SbeDoc$NodeData;" new="getSectionData" s="136" e="136"/>
+   <method old="getSectionName()Ljava/lang/String;" new="getSectionName" s="116" e="116"/>
+   <method old="getStartDepth()J" new="getStartDepth" s="122" e="122"/>
+   <method old="getStep()F" new="getStep" s="130" e="130"/>
+   <method old="getTestMode()B" new="getTestMode" s="118" e="118"/>
+   <method old="getTrl()S" new="getTrl" s="124" e="124"/>
+   <method old="getXcHeight()I" new="getXcHeight" s="120" e="120"/>
+   <method old="hashCode()I" new="hashCode" s="111" e="111"/>
+   <method old="setBaseInfoId(Ljava/lang/String;)V" new="setBaseInfoId" s="111" e="111"/>
+   <method old="setMoveDirect(B)V" new="setMoveDirect" s="111" e="111"/>
+   <method old="setNodesCount(I)V" new="setNodesCount" s="111" e="111"/>
+   <method old="setSampleInterval(F)V" new="setSampleInterval" s="111" e="111"/>
+   <method old="setSampleLength(S)V" new="setSampleLength" s="111" e="111"/>
+   <method old="setSectionData([Lcom/yhgs/model/SbeDoc$NodeData;)V" new="setSectionData" s="111" e="111"/>
+   <method old="setSectionName(Ljava/lang/String;)V" new="setSectionName" s="111" e="111"/>
+   <method old="setStartDepth(J)V" new="setStartDepth" s="111" e="111"/>
+   <method old="setStep(F)V" new="setStep" s="111" e="111"/>
+   <method old="setTestMode(B)V" new="setTestMode" s="111" e="111"/>
+   <method old="setTrl(S)V" new="setTrl" s="111" e="111"/>
+   <method old="setXcHeight(I)V" new="setXcHeight" s="111" e="111"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="111" e="111"/>
+   <field old="BaseInfoId Ljava/lang/String;" new="BaseInfoId"/>
+   <field old="MoveDirect B" new="MoveDirect"/>
+   <field old="NodesCount I" new="NodesCount"/>
+   <field old="SampleInterval F" new="SampleInterval"/>
+   <field old="SampleLength S" new="SampleLength"/>
+   <field old="SectionData [Lcom/yhgs/model/SbeDoc$NodeData;" new="SectionData"/>
+   <field old="SectionName Ljava/lang/String;" new="SectionName"/>
+   <field old="StartDepth J" new="StartDepth"/>
+   <field old="Step F" new="Step"/>
+   <field old="TestMode B" new="TestMode"/>
+   <field old="Trl S" new="Trl"/>
+   <field old="XcHeight I" new="XcHeight"/>
+   <field old="this$0 Lcom/yhgs/model/SbeDoc;" new="f_ALLATORIxDEMO"/>
+  </class>
+  <class old="com.yhgs.util.ReaderMethodUtil" new="com.yhgs.util.ReaderMethodUtil">
+   <method old="readerMethod(Ljava/io/File;)Ljava/lang/String;" new="readerMethod" s="8" e="17"/>
+  </class>
+  <class old="com.yhgs.model.SssDoc" new="com.yhgs.model.SssDoc">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_ALLATORIxDEMO"/>
+   <method old="StringToBytes(Ljava/lang/String;)[B" new="StringToBytes" s="235" e="245"/>
+   <method old="canEqual(Ljava/lang/Object;)Z" new="canEqual" s="22" e="22"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals" s="22" e="22"/>
+   <method old="getBaseInfoId()Ljava/lang/String;" new="getBaseInfoId" s="73" e="73"/>
+   <method old="getBottomArea()F" new="getBottomArea" s="61" e="61"/>
+   <method old="getChannels()[Lcom/yhgs/model/SssDoc$ChannelData;" new="getChannels" s="75" e="75"/>
+   <method old="getConcreteStrength()Ljava/lang/String;" new="getConcreteStrength" s="41" e="41"/>
+   <method old="getCreateName()Ljava/lang/String;" new="getCreateName" s="31" e="31"/>
+   <method old="getDensity()F" new="getDensity" s="63" e="63"/>
+   <method old="getDepthIn()F" new="getDepthIn" s="69" e="69"/>
+   <method old="getGpsIsValid()I" new="getGpsIsValid" s="43" e="43"/>
+   <method old="getGpsLatitude()D" new="getGpsLatitude" s="47" e="47"/>
+   <method old="getGpsLongitude()D" new="getGpsLongitude" s="45" e="45"/>
+   <method old="getHammerDropHeight()F" new="getHammerDropHeight" s="57" e="57"/>
+   <method old="getHammerWeight()F" new="getHammerWeight" s="55" e="55"/>
+   <method old="getIsHighStrainTest()I" new="getIsHighStrainTest" s="51" e="51"/>
+   <method old="getJc()F" new="getJc" s="67" e="67"/>
+   <method old="getLengthUnderSensor()F" new="getLengthUnderSensor" s="53" e="53"/>
+   <method old="getMachineId()Ljava/lang/String;" new="getMachineId" s="25" e="25"/>
+   <method old="getPileDiameter()Ljava/lang/String;" new="getPileDiameter" s="37" e="37"/>
+   <method old="getPileLength()F" new="getPileLength" s="35" e="35"/>
+   <method old="getPileNo()Ljava/lang/String;" new="getPileNo" s="29" e="29"/>
+   <method old="getPileVelocity()F" new="getPileVelocity" s="39" e="39"/>
+   <method old="getSectionArea()F" new="getSectionArea" s="59" e="59"/>
+   <method old="getSectionCircum()F" new="getSectionCircum" s="65" e="65"/>
+   <method old="getSerialNo()Ljava/lang/String;" new="getSerialNo" s="27" e="27"/>
+   <method old="getShangGangZheng()Ljava/lang/String;" new="getShangGangZheng" s="49" e="49"/>
+   <method old="getTestTime()Ljava/util/Date;" new="getTestTime" s="33" e="33"/>
+   <method old="getVs()F" new="getVs" s="71" e="71"/>
+   <method old="hashCode()I" new="hashCode" s="22" e="22"/>
+   <method old="makeSssFile(Lcom/yhgs/model/SssDoc;)[B" new="makeSssFile" s="102" e="231"/>
+   <method old="setBaseInfoId(Ljava/lang/String;)V" new="setBaseInfoId" s="21" e="21"/>
+   <method old="setBottomArea(F)V" new="setBottomArea" s="21" e="21"/>
+   <method old="setChannels([Lcom/yhgs/model/SssDoc$ChannelData;)V" new="setChannels" s="21" e="21"/>
+   <method old="setConcreteStrength(Ljava/lang/String;)V" new="setConcreteStrength" s="21" e="21"/>
+   <method old="setCreateName(Ljava/lang/String;)V" new="setCreateName" s="21" e="21"/>
+   <method old="setDensity(F)V" new="setDensity" s="21" e="21"/>
+   <method old="setDepthIn(F)V" new="setDepthIn" s="21" e="21"/>
+   <method old="setGpsIsValid(I)V" new="setGpsIsValid" s="21" e="21"/>
+   <method old="setGpsLatitude(D)V" new="setGpsLatitude" s="21" e="21"/>
+   <method old="setGpsLongitude(D)V" new="setGpsLongitude" s="21" e="21"/>
+   <method old="setHammerDropHeight(F)V" new="setHammerDropHeight" s="21" e="21"/>
+   <method old="setHammerWeight(F)V" new="setHammerWeight" s="21" e="21"/>
+   <method old="setIsHighStrainTest(I)V" new="setIsHighStrainTest" s="21" e="21"/>
+   <method old="setJc(F)V" new="setJc" s="21" e="21"/>
+   <method old="setLengthUnderSensor(F)V" new="setLengthUnderSensor" s="21" e="21"/>
+   <method old="setMachineId(Ljava/lang/String;)V" new="setMachineId" s="21" e="21"/>
+   <method old="setPileDiameter(Ljava/lang/String;)V" new="setPileDiameter" s="21" e="21"/>
+   <method old="setPileLength(F)V" new="setPileLength" s="21" e="21"/>
+   <method old="setPileNo(Ljava/lang/String;)V" new="setPileNo" s="21" e="21"/>
+   <method old="setPileVelocity(F)V" new="setPileVelocity" s="21" e="21"/>
+   <method old="setSectionArea(F)V" new="setSectionArea" s="21" e="21"/>
+   <method old="setSectionCircum(F)V" new="setSectionCircum" s="21" e="21"/>
+   <method old="setSerialNo(Ljava/lang/String;)V" new="setSerialNo" s="21" e="21"/>
+   <method old="setShangGangZheng(Ljava/lang/String;)V" new="setShangGangZheng" s="21" e="21"/>
+   <method old="setTestTime(Ljava/util/Date;)V" new="setTestTime" s="21" e="21"/>
+   <method old="setVs(F)V" new="setVs" s="21" e="21"/>
+   <method old="toString()Ljava/lang/String;" new="toString" s="21" e="21"/>
+   <field old="BaseInfoId Ljava/lang/String;" new="BaseInfoId"/>
+   <field old="BottomArea F" new="BottomArea"/>
+   <field old="Channels [Lcom/yhgs/model/SssDoc$ChannelData;" new="Channels"/>
+   <field old="ConcreteStrength Ljava/lang/String;" new="ConcreteStrength"/>
+   <field old="CreateName Ljava/lang/String;" new="CreateName"/>
+   <field old="Density F" new="Density"/>
+   <field old="DepthIn F" new="DepthIn"/>
+   <field old="GpsIsValid I" new="GpsIsValid"/>
+   <field old="GpsLatitude D" new="GpsLatitude"/>
+   <field old="GpsLongitude D" new="GpsLongitude"/>
+   <field old="HammerDropHeight F" new="HammerDropHeight"/>
+   <field old="HammerWeight F" new="HammerWeight"/>
+   <field old="IsHighStrainTest I" new="IsHighStrainTest"/>
+   <field old="Jc F" new="Jc"/>
+   <field old="LengthUnderSensor F" new="LengthUnderSensor"/>
+   <field old="MachineId Ljava/lang/String;" new="MachineId"/>
+   <field old="PileDiameter Ljava/lang/String;" new="PileDiameter"/>
+   <field old="PileLength F" new="PileLength"/>
+   <field old="PileNo Ljava/lang/String;" new="PileNo"/>
+   <field old="PileVelocity F" new="PileVelocity"/>
+   <field old="SectionArea F" new="SectionArea"/>
+   <field old="SectionCircum F" new="SectionCircum"/>
+   <field old="SerialNo Ljava/lang/String;" new="SerialNo"/>
+   <field old="ShangGangZheng Ljava/lang/String;" new="ShangGangZheng"/>
+   <field old="TestTime Ljava/util/Date;" new="TestTime"/>
+   <field old="Vs F" new="Vs"/>
+  </class>
+  <class old="com.yhgs.util.BitConverter" new="com.yhgs.util.BitConverter">
+   <method old="copyFrom([BII)[B" new="m_ALLATORIxDEMO" s="525" e="532"/>
+   <method old="getBytes(C)[B" new="getBytes" s="61" e="75"/>
+   <method old="getBytes(D)[B" new="getBytes" s="183" e="183"/>
+   <method old="getBytes(F)[B" new="getBytes" s="171" e="171"/>
+   <method old="getBytes(I)[B" new="getBytes" s="87" e="109"/>
+   <method old="getBytes(J)[B" new="getBytes" s="121" e="159"/>
+   <method old="getBytes(Ljava/lang/String;)[B" new="getBytes" s="195" e="195"/>
+   <method old="getBytes(Ljava/lang/String;Ljava/lang/String;)[B" new="getBytes" s="208" e="208"/>
+   <method old="getBytes(S)[B" new="getBytes" s="35" e="49"/>
+   <method old="getBytes(Z)[B" new="getBytes" s="19" e="23"/>
+   <method old="isLittleEndian()Z" new="m_ALLATORIxDEMO" s="543" e="543"/>
+   <method old="toBoolean([B)Z" new="toBoolean" s="220" e="220"/>
+   <method old="toBoolean([BI)Z" new="toBoolean" s="233" e="233"/>
+   <method old="toChar([B)C" new="toChar" s="276" e="280"/>
+   <method old="toChar([BI)C" new="toChar" s="295" e="295"/>
+   <method old="toDouble([B)D" new="toDouble" s="434" e="434"/>
+   <method old="toDouble([BI)D" new="toDouble" s="447" e="447"/>
+   <method old="toFloat([B)F" new="toFloat" s="409" e="409"/>
+   <method old="toFloat([BI)F" new="toFloat" s="422" e="422"/>
+   <method old="toHexString([B)Ljava/lang/String;" new="toHexString" s="484" e="505"/>
+   <method old="toInt([B)I" new="toInt" s="307" e="317"/>
+   <method old="toInt([BI)I" new="toInt" s="338" e="338"/>
+   <method old="toLong([B)J" new="toLong" s="350" e="368"/>
+   <method old="toLong([BI)J" new="toLong" s="397" e="397"/>
+   <method old="toShort([B)S" new="toShort" s="245" e="249"/>
+   <method old="toShort([BI)S" new="toShort" s="264" e="264"/>
+   <method old="toString([B)Ljava/lang/String;" new="toString" s="459" e="459"/>
+   <method old="toString([BLjava/lang/String;)Ljava/lang/String;" new="toString" s="472" e="472"/>
+  </class>
+  <class old="com.yhgs.util.FileBytes" new="com.yhgs.util.FileBytes">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_ALLATORIxDEMO"/>
+   <method old="Clear()V" new="Clear" s="382" e="384"/>
+   <method old="GetByte()B" new="GetByte" s="244" e="249"/>
+   <method old="GetByteArray(I)[B" new="GetByteArray" s="341" e="345"/>
+   <method old="GetBytes(Ljava/lang/String;)[B" new="m_ALLATORIxDEMO" s="439" e="443"/>
+   <method old="GetBytes(Ljava/lang/String;I)[B" new="m_ALLATORIxDEMO" s="416" e="430"/>
+   <method old="GetDouble()D" new="GetDouble" s="253" e="258"/>
+   <method old="GetFloat()F" new="GetFloat" s="262" e="267"/>
+   <method old="GetFloatArray(I)[F" new="GetFloatArray" s="358" e="363"/>
+   <method old="GetImageString(I)Ljava/lang/String;" new="GetImageString" s="208" e="213"/>
+   <method old="GetIndex()I" new="GetIndex" s="181" e="181"/>
+   <method old="GetInt()I" new="GetInt" s="217" e="222"/>
+   <method old="GetIntArray(I)[I" new="GetIntArray" s="367" e="372"/>
+   <method old="GetLength()I" new="m_ALLATORIxDEMO" s="387" e="393"/>
+   <method old="GetLong()J" new="GetLong" s="226" e="231"/>
+   <method old="GetSYSTEMTIMEFormat()Ljava/lang/String;" new="GetSYSTEMTIMEFormat" s="283" e="337"/>
+   <method old="GetShort()S" new="GetShort" s="235" e="240"/>
+   <method old="GetShortArray(I)[S" new="GetShortArray" s="349" e="354"/>
+   <method old="GetString()Ljava/lang/String;" new="GetString" s="185" e="194"/>
+   <method old="GetString(I)Ljava/lang/String;" new="GetString" s="198" e="204"/>
+   <method old="IndexAdd(I)V" new="IndexAdd" s="173" e="174"/>
+   <method old="IndexEqual(I)V" new="IndexEqual" s="177" e="178"/>
+   <method old="ReWriteByteValue([BBI)V" new="ReWriteByteValue" s="60" e="69"/>
+   <method old="ReWriteFloatValue([BFI)V" new="ReWriteFloatValue" s="47" e="57"/>
+   <method old="ReWriteIntValue([BII)V" new="ReWriteIntValue" s="34" e="44"/>
+   <method old="Save(B)V" new="Save" s="124" e="126"/>
+   <method old="Save(D)V" new="Save" s="109" e="111"/>
+   <method old="Save(F)V" new="Save" s="114" e="116"/>
+   <method old="Save(I)V" new="Save" s="104" e="106"/>
+   <method old="Save(J)V" new="Save" s="98" e="100"/>
+   <method old="Save(Ljava/lang/String;)V" new="Save" s="90" e="95"/>
+   <method old="Save(Ljava/lang/String;I)V" new="Save" s="79" e="82"/>
+   <method old="Save(S)V" new="Save" s="119" e="121"/>
+   <method old="Save([B)Z" new="Save" s="129" e="134"/>
+   <method old="Save([BI)Z" new="Save" s="138" e="145"/>
+   <method old="Save([F)V" new="Save" s="160" e="168"/>
+   <method old="Save([S)V" new="Save" s="149" e="157"/>
+   <method old="ToBytes()[B" new="ToBytes" s="397" e="405"/>
+   <field old="Data [B" new="f_ALLATORIxDEMO"/>
+   <field old="EMPTY Ljava/lang/String;" new="f_IiIiiiiiIi"/>
+   <field old="charset Ljava/nio/charset/Charset;" new="f_iIiiiIiIiI"/>
+   <field old="mFileBytes Ljava/util/HashMap;" new="f_IIIIiIiiiI"/>
+   <field old="mIndex I" new="f_iiIiiIIIiI"/>
+  </class>
+  <sources>
+   <source old="SbeDoc.java" new="u"/>
+   <source old="SssDoc.java" new="m"/>
+   <source old="BitConverter.java" new="a"/>
+   <source old="BitConverters.java" new="r"/>
+   <source old="FileBytes.java" new="f"/>
+   <source old="ReaderMethodUtil.java" new="y"/>
+  </sources>
+  <lines>
+   <line l="61"/>
+   <line l="63"/>
+   <line l="82"/>
+   <line l="148"/>
+   <line l="17"/>
+   <line l="110"/>
+   <line l="156"/>
+   <line l="159"/>
+   <line l="104"/>
+   <line l="127"/>
+   <line l="45"/>
+   <line l="167"/>
+   <line l="151"/>
+   <line l="133"/>
+   <line l="90"/>
+   <line l="11"/>
+   <line l="67"/>
+   <line l="179"/>
+   <line l="92"/>
+   <line l="16"/>
+   <line l="77"/>
+   <line l="139"/>
+   <line l="204"/>
+   <line l="74"/>
+   <line l="3"/>
+   <line l="161"/>
+   <line l="172"/>
+   <line l="142"/>
+   <line l="73"/>
+   <line l="21"/>
+   <line l="196"/>
+   <line l="134"/>
+   <line l="124"/>
+   <line l="9"/>
+   <line l="52"/>
+   <line l="47"/>
+   <line l="40"/>
+   <line l="178"/>
+   <line l="131"/>
+   <line l="54"/>
+   <line l="42"/>
+   <line l="80"/>
+   <line l="72"/>
+   <line l="24"/>
+   <line l="186"/>
+   <line l="143"/>
+   <line l="48"/>
+   <line l="121"/>
+   <line l="168"/>
+   <line l="20"/>
+   <line l="41"/>
+   <line l="125"/>
+   <line l="103"/>
+   <line l="81"/>
+   <line l="158"/>
+   <line l="202"/>
+   <line l="166"/>
+   <line l="176"/>
+   <line l="93"/>
+   <line l="146"/>
+   <line l="23"/>
+   <line l="136"/>
+   <line l="129"/>
+   <line l="49"/>
+   <line l="130"/>
+   <line l="198"/>
+   <line l="160"/>
+   <line l="69"/>
+   <line l="144"/>
+   <line l="51"/>
+   <line l="4"/>
+   <line l="182"/>
+   <line l="35"/>
+   <line l="30"/>
+   <line l="12"/>
+   <line l="184"/>
+   <line l="84"/>
+   <line l="154"/>
+   <line l="38"/>
+   <line l="149"/>
+   <line l="153"/>
+   <line l="109"/>
+   <line l="187"/>
+   <line l="152"/>
+   <line l="138"/>
+   <line l="56"/>
+   <line l="192"/>
+   <line l="200"/>
+   <line l="150"/>
+   <line l="141"/>
+   <line l="165"/>
+   <line l="86"/>
+   <line l="7"/>
+   <line l="13"/>
+   <line l="111"/>
+   <line l="195"/>
+   <line l="126"/>
+   <line l="171"/>
+   <line l="137"/>
+   <line l="97"/>
+   <line l="95"/>
+   <line l="5"/>
+   <line l="164"/>
+   <line l="122"/>
+   <line l="135"/>
+   <line l="70"/>
+   <line l="8"/>
+   <line l="1"/>
+   <line l="29"/>
+   <line l="132"/>
+   <line l="145"/>
+   <line l="188"/>
+   <line l="102"/>
+   <line l="39"/>
+   <line l="113"/>
+   <line l="85"/>
+   <line l="37"/>
+   <line l="157"/>
+   <line l="50"/>
+   <line l="116"/>
+   <line l="25"/>
+   <line l="101"/>
+   <line l="71"/>
+   <line l="65"/>
+   <line l="183"/>
+   <line l="22"/>
+   <line l="66"/>
+   <line l="59"/>
+   <line l="18"/>
+   <line l="140"/>
+   <line l="185"/>
+   <line l="175"/>
+   <line l="89"/>
+   <line l="114"/>
+   <line l="99"/>
+   <line l="181"/>
+   <line l="100"/>
+   <line l="33"/>
+   <line l="201"/>
+   <line l="174"/>
+   <line l="199"/>
+   <line l="197"/>
+   <line l="162"/>
+   <line l="96"/>
+   <line l="58"/>
+   <line l="83"/>
+   <line l="34"/>
+   <line l="76"/>
+   <line l="128"/>
+   <line l="27"/>
+   <line l="64"/>
+   <line l="75"/>
+   <line l="14"/>
+   <line l="10"/>
+   <line l="117"/>
+   <line l="55"/>
+   <line l="44"/>
+   <line l="98"/>
+   <line l="46"/>
+   <line l="19"/>
+   <line l="147"/>
+   <line l="36"/>
+   <line l="78"/>
+   <line l="60"/>
+   <line l="163"/>
+   <line l="107"/>
+   <line l="194"/>
+   <line l="68"/>
+   <line l="108"/>
+   <line l="177"/>
+   <line l="87"/>
+   <line l="115"/>
+   <line l="94"/>
+   <line l="120"/>
+   <line l="6"/>
+   <line l="189"/>
+   <line l="0"/>
+   <line l="123"/>
+   <line l="2"/>
+   <line l="112"/>
+   <line l="15"/>
+   <line l="57"/>
+   <line l="105"/>
+   <line l="169"/>
+   <line l="170"/>
+   <line l="191"/>
+   <line l="203"/>
+   <line l="62"/>
+   <line l="32"/>
+   <line l="180"/>
+   <line l="155"/>
+   <line l="79"/>
+   <line l="91"/>
+   <line l="119"/>
+   <line l="88"/>
+   <line l="173"/>
+   <line l="106"/>
+   <line l="28"/>
+   <line l="118"/>
+   <line l="53"/>
+   <line l="26"/>
+   <line l="193"/>
+   <line l="31"/>
+   <line l="43"/>
+   <line l="190"/>
+   <line l="245"/>
+   <line l="380"/>
+   <line l="320"/>
+   <line l="321"/>
+   <line l="294"/>
+   <line l="309"/>
+   <line l="246"/>
+   <line l="358"/>
+   <line l="289"/>
+   <line l="243"/>
+   <line l="283"/>
+   <line l="338"/>
+   <line l="319"/>
+   <line l="345"/>
+   <line l="220"/>
+   <line l="214"/>
+   <line l="297"/>
+   <line l="415"/>
+   <line l="269"/>
+   <line l="251"/>
+   <line l="374"/>
+   <line l="275"/>
+   <line l="325"/>
+   <line l="372"/>
+   <line l="323"/>
+   <line l="399"/>
+   <line l="233"/>
+   <line l="273"/>
+   <line l="389"/>
+   <line l="352"/>
+   <line l="348"/>
+   <line l="296"/>
+   <line l="347"/>
+   <line l="335"/>
+   <line l="373"/>
+   <line l="383"/>
+   <line l="270"/>
+   <line l="299"/>
+   <line l="235"/>
+   <line l="346"/>
+   <line l="305"/>
+   <line l="263"/>
+   <line l="226"/>
+   <line l="232"/>
+   <line l="411"/>
+   <line l="303"/>
+   <line l="421"/>
+   <line l="272"/>
+   <line l="284"/>
+   <line l="318"/>
+   <line l="300"/>
+   <line l="306"/>
+   <line l="362"/>
+   <line l="330"/>
+   <line l="254"/>
+   <line l="221"/>
+   <line l="359"/>
+   <line l="329"/>
+   <line l="308"/>
+   <line l="285"/>
+   <line l="311"/>
+   <line l="332"/>
+   <line l="393"/>
+   <line l="301"/>
+   <line l="344"/>
+   <line l="401"/>
+   <line l="256"/>
+   <line l="409"/>
+   <line l="350"/>
+   <line l="265"/>
+   <line l="260"/>
+   <line l="339"/>
+   <line l="397"/>
+   <line l="369"/>
+   <line l="416"/>
+   <line l="264"/>
+   <line l="258"/>
+   <line l="315"/>
+   <line l="328"/>
+   <line l="404"/>
+   <line l="414"/>
+   <line l="370"/>
+   <line l="215"/>
+   <line l="386"/>
+   <line l="342"/>
+   <line l="351"/>
+   <line l="333"/>
+   <line l="322"/>
+   <line l="241"/>
+   <line l="249"/>
+   <line l="213"/>
+   <line l="266"/>
+   <line l="379"/>
+   <line l="343"/>
+   <line l="400"/>
+   <line l="391"/>
+   <line l="355"/>
+   <line l="390"/>
+   <line l="378"/>
+   <line l="207"/>
+   <line l="236"/>
+   <line l="247"/>
+   <line l="412"/>
+   <line l="340"/>
+   <line l="385"/>
+   <line l="406"/>
+   <line l="413"/>
+   <line l="208"/>
+   <line l="212"/>
+   <line l="268"/>
+   <line l="238"/>
+   <line l="288"/>
+   <line l="327"/>
+   <line l="312"/>
+   <line l="267"/>
+   <line l="242"/>
+   <line l="417"/>
+   <line l="287"/>
+   <line l="255"/>
+   <line l="371"/>
+   <line l="302"/>
+   <line l="210"/>
+   <line l="395"/>
+   <line l="278"/>
+   <line l="341"/>
+   <line l="324"/>
+   <line l="420"/>
+   <line l="360"/>
+   <line l="382"/>
+   <line l="234"/>
+   <line l="205"/>
+   <line l="261"/>
+   <line l="337"/>
+   <line l="239"/>
+   <line l="262"/>
+   <line l="368"/>
+   <line l="334"/>
+   <line l="229"/>
+   <line l="376"/>
+   <line l="387"/>
+   <line l="366"/>
+   <line l="222"/>
+   <line l="403"/>
+   <line l="392"/>
+   <line l="271"/>
+   <line l="394"/>
+   <line l="313"/>
+   <line l="298"/>
+   <line l="286"/>
+   <line l="388"/>
+   <line l="363"/>
+   <line l="304"/>
+   <line l="418"/>
+   <line l="252"/>
+   <line l="326"/>
+   <line l="381"/>
+   <line l="375"/>
+   <line l="240"/>
+   <line l="259"/>
+   <line l="357"/>
+   <line l="257"/>
+   <line l="219"/>
+   <line l="356"/>
+   <line l="216"/>
+   <line l="402"/>
+   <line l="218"/>
+   <line l="365"/>
+   <line l="206"/>
+   <line l="217"/>
+   <line l="295"/>
+   <line l="292"/>
+   <line l="410"/>
+   <line l="248"/>
+   <line l="227"/>
+   <line l="384"/>
+   <line l="282"/>
+   <line l="281"/>
+   <line l="364"/>
+   <line l="398"/>
+   <line l="211"/>
+   <line l="279"/>
+   <line l="293"/>
+   <line l="291"/>
+   <line l="367"/>
+   <line l="317"/>
+   <line l="349"/>
+   <line l="361"/>
+   <line l="377"/>
+   <line l="316"/>
+   <line l="237"/>
+   <line l="274"/>
+   <line l="230"/>
+   <line l="408"/>
+   <line l="353"/>
+   <line l="225"/>
+   <line l="310"/>
+   <line l="276"/>
+   <line l="277"/>
+   <line l="223"/>
+   <line l="253"/>
+   <line l="250"/>
+   <line l="307"/>
+   <line l="407"/>
+   <line l="244"/>
+   <line l="231"/>
+   <line l="419"/>
+   <line l="331"/>
+   <line l="405"/>
+   <line l="209"/>
+   <line l="228"/>
+   <line l="290"/>
+   <line l="280"/>
+   <line l="314"/>
+   <line l="354"/>
+   <line l="336"/>
+   <line l="224"/>
+   <line l="396"/>
+   <line l="438"/>
+   <line l="462"/>
+   <line l="575"/>
+   <line l="509"/>
+   <line l="492"/>
+   <line l="436"/>
+   <line l="540"/>
+   <line l="605"/>
+   <line l="596"/>
+   <line l="636"/>
+   <line l="514"/>
+   <line l="572"/>
+   <line l="553"/>
+   <line l="563"/>
+   <line l="606"/>
+   <line l="623"/>
+   <line l="582"/>
+   <line l="626"/>
+   <line l="451"/>
+   <line l="618"/>
+   <line l="587"/>
+   <line l="546"/>
+   <line l="603"/>
+   <line l="567"/>
+   <line l="539"/>
+   <line l="532"/>
+   <line l="616"/>
+   <line l="502"/>
+   <line l="510"/>
+   <line l="579"/>
+   <line l="485"/>
+   <line l="597"/>
+   <line l="489"/>
+   <line l="495"/>
+   <line l="506"/>
+   <line l="591"/>
+   <line l="629"/>
+   <line l="584"/>
+   <line l="594"/>
+   <line l="439"/>
+   <line l="637"/>
+   <line l="487"/>
+   <line l="536"/>
+   <line l="607"/>
+   <line l="431"/>
+   <line l="500"/>
+   <line l="504"/>
+   <line l="595"/>
+   <line l="600"/>
+   <line l="445"/>
+   <line l="535"/>
+   <line l="611"/>
+   <line l="525"/>
+   <line l="432"/>
+   <line l="577"/>
+   <line l="493"/>
+   <line l="515"/>
+   <line l="437"/>
+   <line l="627"/>
+   <line l="461"/>
+   <line l="545"/>
+   <line l="634"/>
+   <line l="566"/>
+   <line l="472"/>
+   <line l="426"/>
+   <line l="427"/>
+   <line l="471"/>
+   <line l="512"/>
+   <line l="477"/>
+   <line l="464"/>
+   <line l="573"/>
+   <line l="569"/>
+   <line l="599"/>
+   <line l="447"/>
+   <line l="642"/>
+   <line l="458"/>
+   <line l="589"/>
+   <line l="491"/>
+   <line l="424"/>
+   <line l="475"/>
+   <line l="425"/>
+   <line l="452"/>
+   <line l="521"/>
+   <line l="635"/>
+   <line l="547"/>
+   <line l="608"/>
+   <line l="639"/>
+   <line l="619"/>
+   <line l="498"/>
+   <line l="580"/>
+   <line l="560"/>
+   <line l="578"/>
+   <line l="571"/>
+   <line l="585"/>
+   <line l="640"/>
+   <line l="565"/>
+   <line l="542"/>
+   <line l="473"/>
+   <line l="528"/>
+   <line l="468"/>
+   <line l="444"/>
+   <line l="478"/>
+   <line l="550"/>
+   <line l="497"/>
+   <line l="520"/>
+   <line l="601"/>
+   <line l="574"/>
+   <line l="508"/>
+   <line l="588"/>
+   <line l="453"/>
+   <line l="442"/>
+   <line l="533"/>
+   <line l="614"/>
+   <line l="559"/>
+   <line l="448"/>
+   <line l="501"/>
+   <line l="590"/>
+   <line l="496"/>
+   <line l="570"/>
+   <line l="433"/>
+   <line l="526"/>
+   <line l="460"/>
+   <line l="523"/>
+   <line l="511"/>
+   <line l="529"/>
+   <line l="538"/>
+   <line l="483"/>
+   <line l="632"/>
+   <line l="476"/>
+   <line l="612"/>
+   <line l="466"/>
+   <line l="610"/>
+   <line l="624"/>
+   <line l="613"/>
+   <line l="527"/>
+   <line l="531"/>
+   <line l="450"/>
+   <line l="505"/>
+   <line l="499"/>
+   <line l="428"/>
+   <line l="488"/>
+   <line l="561"/>
+   <line l="481"/>
+   <line l="486"/>
+   <line l="622"/>
+   <line l="513"/>
+   <line l="449"/>
+   <line l="554"/>
+   <line l="581"/>
+   <line l="630"/>
+   <line l="534"/>
+   <line l="638"/>
+   <line l="558"/>
+   <line l="479"/>
+   <line l="564"/>
+   <line l="576"/>
+   <line l="621"/>
+   <line l="422"/>
+   <line l="548"/>
+   <line l="455"/>
+   <line l="522"/>
+   <line l="518"/>
+   <line l="557"/>
+   <line l="441"/>
+   <line l="457"/>
+   <line l="615"/>
+   <line l="490"/>
+   <line l="543"/>
+   <line l="463"/>
+   <line l="524"/>
+   <line l="544"/>
+   <line l="628"/>
+   <line l="443"/>
+   <line l="631"/>
+   <line l="423"/>
+   <line l="494"/>
+   <line l="586"/>
+   <line l="435"/>
+   <line l="484"/>
+   <line l="609"/>
+   <line l="537"/>
+   <line l="467"/>
+   <line l="516"/>
+   <line l="549"/>
+   <line l="641"/>
+   <line l="446"/>
+   <line l="592"/>
+   <line l="503"/>
+   <line l="434"/>
+   <line l="456"/>
+   <line l="617"/>
+   <line l="556"/>
+   <line l="469"/>
+   <line l="454"/>
+   <line l="602"/>
+   <line l="598"/>
+   <line l="517"/>
+   <line l="507"/>
+   <line l="465"/>
+   <line l="555"/>
+   <line l="568"/>
+   <line l="583"/>
+   <line l="429"/>
+   <line l="519"/>
+   <line l="604"/>
+   <line l="562"/>
+   <line l="470"/>
+   <line l="551"/>
+   <line l="552"/>
+   <line l="633"/>
+   <line l="480"/>
+   <line l="620"/>
+   <line l="459"/>
+   <line l="625"/>
+   <line l="541"/>
+   <line l="430"/>
+   <line l="440"/>
+   <line l="593"/>
+   <line l="474"/>
+   <line l="482"/>
+   <line l="530"/>
+  </lines>
+ </mapping>
+</allatori>
