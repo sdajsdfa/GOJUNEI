@@ -1,0 +1,28 @@
+# ????
+server:
+  port: 8082
+spring:
+  application:
+    name: payment-app
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://120.79.64.245:3306/yanhai?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/yanhaigongsi?serverTimezone=Asia/Shanghai
+#    username: admin
+#    password: 1&ATJ?-?h9r1
+    username: root
+    password: 123456
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #sql??
+  #    map-underscore-to-camel-case: true
+  mapper-locations: classpath:com/yhgc/api/mapper/xml/*.xml
+  type-aliases-package: com.yhgc.api.entity
+
+redis:
+  host: 127.0.0.1
+  post: 6379
+
